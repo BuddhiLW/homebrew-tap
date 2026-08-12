@@ -5,15 +5,15 @@ class Cljw < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/BuddhiLW/ClojureWasm/releases/download/v1.10.1/cljw-macos-aarch64.tar.gz"
-      sha256 "52a76b4eb623004eaccb49f512f879eabe7d85f8626245473ead537363cf15b1"
+      url "https://github.com/BuddhiLW/ClojureWasm/releases/download/v1.10.2/cljw-macos-aarch64.tar.gz"
+      sha256 "50bb916fe1b49e0679c65b567fbac6a3d52fe931395a7ca535387e6032f83210"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/BuddhiLW/ClojureWasm/releases/download/v1.10.1/cljw-linux-x86_64.tar.gz"
-      sha256 "eabded973ada89dd608dd5fbbc47845e9d6a5698675d14d133a6686ceb0e7035"
+      url "https://github.com/BuddhiLW/ClojureWasm/releases/download/v1.10.2/cljw-linux-x86_64.tar.gz"
+      sha256 "c4c09f1d271ad8984823327eaa59ae0c5bbcece1649cb7646a1014d9daf72397"
     end
   end
 
