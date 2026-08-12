@@ -23,6 +23,6 @@ class Cljw < Formula
 
   test do
     assert_equal "3", shell_output("#{bin}/cljw -e '(+ 1 2)'").strip
-    assert_match "1.10.1", shell_output("#{bin}/cljw --version")
+    assert_match "1.10.2", shell_output("#{bin}/cljw --version")
   end
 end
