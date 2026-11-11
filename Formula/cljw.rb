@@ -5,15 +5,15 @@ class Cljw < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/BuddhiLW/ClojureWasm/releases/download/v1.15.7/cljw-macos-aarch64.tar.gz"
-      sha256 "a6df6e3c6db441b5918fd8d691f9a87ba6905500ae0d2e97613a25ffdff25d96"
+      url "https://github.com/BuddhiLW/ClojureWasm/releases/download/v1.15.8/cljw-macos-aarch64.tar.gz"
+      sha256 "880d508ccd0fea64558f08c2b177c87f318af9f59494f7942e4cf7ac865e939b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/BuddhiLW/ClojureWasm/releases/download/v1.15.7/cljw-linux-x86_64.tar.gz"
-      sha256 "b70689236733c7ab5e18988b030ae4fc6eac88d48b2fd6e25896816fc1b87f7e"
+      url "https://github.com/BuddhiLW/ClojureWasm/releases/download/v1.15.8/cljw-linux-x86_64.tar.gz"
+      sha256 "22301d2c93eceb0ddf0d5bda7e84e268b19d58ee142ef8b9fb3afebd00584104"
     end
   end
 
@@ -23,6 +23,6 @@ class Cljw < Formula
 
   test do
     assert_equal "3", shell_output("#{bin}/cljw -e '(+ 1 2)'").strip
-    assert_match "1.15.7", shell_output("#{bin}/cljw --version")
+    assert_match "1.15.8", shell_output("#{bin}/cljw --version")
   end
 end
